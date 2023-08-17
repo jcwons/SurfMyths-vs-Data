@@ -8,9 +8,9 @@ In this project, I verify or debunk some surf myths and conceptions. I have only
 
 **2. Is the surf better when its sunny**
 
-*No. Actually, sunny or rainy does not impact the surf much. Interestingly, there is a higher chance of good surf when it's raining, because there are more rainy days in winter (for the US west coast). So don't let bad weather discourage you to go surfing.*
+*No. Actually, sunny or cloudy does not impact the surf much. Interestingly, there is a higher chance of good surf when it's raining, because there are more cloudy days in winter (for the US west coast). So don't let bad weather discourage you to go surfing.*
 
-**Summary:** I can use the knowledge gained from this data analysis to motivate myself to go surfing on cold and rainy winter days.
+**Summary:** I can use the knowledge gained from this data analysis to motivate myself to go surfing on cold and cloudy winter days.
 
 *Tools used: Python, matplotlib, pandas, numpy, web scrapping* 
 
@@ -35,18 +35,23 @@ Winter performs better in both wave size (bigger) and wind speed (smaller)
 
 Also, the wind directions are more favourable. We want the winds to blow offshore and our example San Francisco faces ESE. 
 
+<img src="./img/Windrose.png" width="500" />
 
 
 **Surf Rating**
 
 We combined wind speed, wind direction and wave height into a new feature called Surf Rating, which rates the surf 0-5.
 
+<img src="./img/monthly_surfrating.png" width="300"/> <img src="./img/Summer_vs_Winter.png" width="300" />
 
-**Sunny vs. Rainy**
 
-I always thought winds are weaker and therefore the surf is better during sunny days.
 
+**Sunny vs. Cloudy**
+
+From my perception, it always felt like the surf conditions are better on sunny days than on cloudy days. But it turns out this is not exactly true. To prove this, I compared the chance of each surf rating given its sunny or cloudy for a summer and a winter month. In summer, the surf is better on cloudy days and in winter on sunny days.
+
+<img src="./img/sunny_jan.png" width="300"/> <img src="./img/sunny_aug.png" width="300" />
 
 ### Conclusions
-The data support the common conception that the waves are bigger in winter. That is because there are more storm systems forming out in the ocean bringing along bigger waves. Furthermore, there are more days with favourable winds. My feeling that the surf is usually better on sunny days seemed to be a misconception unless the weather conditions are very different from the Australian East Coast to the American West Coast. Overall, this project has shown me that I should go out more often on rainy days and cold winter days.
+The data support the common conception that the waves are bigger in winter. That is because more storm systems forming out in the ocean bringing along bigger waves. Furthermore, there are more days with favourable winds. My feeling that the surf is usually better on sunny days seemed to be a misconception unless the weather conditions are very different from the Australian East Coast to the American West Coast. Overall, this project has shown me that I should go out more often on cloudy days and cold winter days.
 
