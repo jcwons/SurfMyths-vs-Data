@@ -28,17 +28,24 @@ The free weather data from NASA provided lots of information, but not the simple
 
 ### Results
 **Seasonal Trends**:
+
 Winter performs better in both wave size (bigger) and wind speed (smaller)
-#Images of the monthly average
+
+<img src="./img/monthly_wave.png" width="300"/> <img src="./img/monthly_wind.png" width="300" />
 
 Also, the wind directions are more favourable. We want the winds to blow offshore and our example San Francisco faces ESE. 
 
+
+
 **Surf Rating**
+
 We combined wind speed, wind direction and wave height into a new feature called Surf Rating, which rates the surf 0-5.
 
 
 **Sunny vs. Rainy**
+
 I always thought winds are weaker and therefore the surf is better during sunny days.
+
 
 ### Conclusions
 The data support the common conception that the waves are bigger in winter. That is because there are more storm systems forming out in the ocean bringing along bigger waves. Furthermore, there are more days with favourable winds. My feeling that the surf is usually better on sunny days seemed to be a misconception unless the weather conditions are very different from the Australian East Coast to the American West Coast. Overall, this project has shown me that I should go out more often on rainy days and cold winter days.
